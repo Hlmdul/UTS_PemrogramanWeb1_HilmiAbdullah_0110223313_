@@ -1,0 +1,98 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+input,textarea {
+    width: 200px;
+}
+
+fieldset {
+    border: 5px solid black;
+    margin: 0px auto;
+    max-width: 700px;
+    background-color: whitesmoke;
+}
+
+legend {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.submit {
+    text-align: center;
+    display: inline;
+    margin-right: 10px;
+}
+
+.reset {
+    text-align: center;
+    display: inline;
+}
+
+.tombol {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input {
+    background-color: azure;
+    border: 0.5px grey solid;
+    border-radius: 5px;
+}
+
+textarea {
+    background-color: azure;
+    border: 0.5px grey solid;
+    border-radius: 5px;
+}
+
+.tombol .submit input  {
+    background-color: forestgreen;
+    color: whitesmoke;
+    width: 100px;
+}
+
+.tombol .submit input:hover  {
+    background-color: goldenrod;
+    color: whitesmoke;
+    width: 100px;
+}
+
+.tombol .reset input:hover  {
+    background-color: black;
+    color: whitesmoke;
+    width: 100px;
+}
+
+.tombol .reset input  {
+    background-color: red;
+    width: 100px;
+    color: whitesmoke;
+}
+
+select {
+    background-color: azure;
+    width: 200px;
+    border: 1px grey solid;
+    border-radius: 5px;
+}
+
+input,textarea {
+    width: 200px;
+}
+
+.radio {
+    width: 50px;
+}
+
+.search {
+    border-radius: 50px;
+}

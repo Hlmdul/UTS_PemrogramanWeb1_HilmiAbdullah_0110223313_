@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UTS Praktikum Pemrograman Web 1</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <form action="data.php">
+            <fieldset>
+                <legend>Daftarkan Alumni</legend>
+                <div>
+                    <label for="SearchBar">Cari Nama Alumni:</label>
+                    <input class="search" type="text" placeholder="Masukkan Nama Alumni" name="SearchBar">
+
+                <div>
+                    <label for="ProgramStudi">Program Studi:</label>
+                    <select type="text" name="ProgramStudi">
+                        <option value="-">--pilih program studi--</option>
+                        <option value="TI">Teknik Informatika</option>
+                        <option value="SI">Sistem Informasi</option>
+                        <option value="BD">Bisnis Digital</option>
+                    </select>
+                </div>
+
+                <div>
+                   <label for="TahunMasuk">Tahun Masuk:</label>
+                   <input type="text" placeholder="Masukkan Tahun Masuk" name="TahunMulus">                   
+                </div>
+
+                <div>
+                    <label for="TahunLulus">Tahun Lulus:</label>
+                    <input type="text" placeholder="Masukkan Tahun Lulus" name="TahunLulus">
+                </div>
+
+                <div>
+                    <label for="Linkedin">Alamat Linkedin:</label>
+                    <input type="text" placeholder="Masukkan LinkedIn Anda" name="Linkedin">
+                </div> 
+
+                <div>
+                    <label for="Pekerjaan">Pekerjaan:</label>
+                    <input type="text" placeholder="Masukkan Pekerjaan Anda" name="Pekerjaan">
+                </div>
+
+                <div class="Alamat">
+                    <label for="AlamatKantor">Alamat Kantor:</label>
+                    <textarea name="AlamatKantor" id="AlamatKantor" cols="30" rows="5"></textarea>
+                </div>
+
+                <div>
+                    <label for="PengurusAlumni">Pengurus Alumni:</label>
+                    <input class="radio" type="radio" name="PengurusAlumni" value="Ya">Ya</input>
+                    <input class="radio" type="radio" name="PengurusAlumni" value="Tidak">Tidak</input>
+                </div>
+
+                <div class="tombol">
+                    <div class="submit">
+                        <input type="submit" value="Simpan">
+                    </div>
+
+                    <div class="reset">
+                        <input type="reset">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
